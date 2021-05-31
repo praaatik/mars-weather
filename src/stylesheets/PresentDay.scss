@@ -1,0 +1,79 @@
+@import "./variables";
+
+.present-day {
+  color: rgb(54, 41, 41);
+  padding: 4em;
+  font-weight: 500;
+  background: $primary-background;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  overflow: hidden;
+  z-index: 0;
+
+  b {
+    font-weight: 900;
+  }
+
+  &--section-one {
+    padding: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+    position: relative;
+    height: 60vh;
+    width: 40vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50px;
+    background: $primary-background;
+    box-shadow: 15px 15px 30px $shadow-one, -15px -15px 30px $shadow-two;
+  }
+
+  .section-one {
+    &__sol {
+      font-size: 3em;
+      padding: 0.2em;
+      padding-left: 0;
+    }
+
+    &__date {
+      font-size: 3em;
+      opacity: 0.5;
+      // margin-top: -10px;
+    }
+
+    &__season {
+      font-size: 1.5em;
+      text-align: left;
+      letter-spacing: 0.3em;
+    }
+  }
+
+  &--part-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60vh;
+    width: 35vw;
+    line-height: 2rem;
+  }
+
+  &--section-two,
+  &--section-three {
+    padding: 1.2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40vh;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.25rem;
+    border-radius: 30px;
+    background: $primary-background;
+    box-shadow: 15px 15px 30px$shadow-one, -15px -15px 30px $shadow-two;
+    z-index: 999;
+  }
+}

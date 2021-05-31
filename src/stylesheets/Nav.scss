@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 2em;
+  font-size: 1.2em;
+  height: 10vh;
+  width: 100vw;
+  overflow: hidden;
+
+  img {
+    margin-left: 0.5rem;
+    margin-top: 2px;
+  }
+}
